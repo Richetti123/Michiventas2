@@ -7,7 +7,11 @@ let teks = `*╭━━[ 𝙍𝙀𝙋𝙊𝙍𝙏𝙀 | 𝙍𝙀𝙋𝙊𝙍𝙏 
 //contextInfo: {
 //mentionedJid: [m.sender]
 //}})
-conn.reply('51966254634@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+conn.reply('56928561853@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
+contextInfo: {
+mentionedJid: [m.sender]
+}})
+conn.reply('56941827124@s.whatsapp.net', m.quoted ? teks + m.quoted.text : teks, null, {
 contextInfo: {
 mentionedJid: [m.sender]
 }})
